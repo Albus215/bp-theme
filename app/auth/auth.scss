@@ -1,0 +1,57 @@
+
+.login  {
+
+  h1 a {
+    width: 160px;
+    height: 80px;
+    margin-top: 0;
+    margin-bottom: 24px;
+    background-size: contain;
+    background-image: url("../../static/img/website_logo.svg");
+  }
+
+  #login {
+    * {
+    }
+
+    #wp-submit {
+    }
+
+    a {
+      color: inherit;
+
+      &:hover {
+      }
+    }
+
+    [type=submit] {
+
+      transition: .25s;
+
+      &:hover {
+      }
+    }
+  }
+
+  #nav,
+  #nav *,
+  #backtoblog {
+
+    a {
+      transition: .25s;
+
+      &:hover {
+      }
+    }
+  }
+
+  .message,
+  .success {
+  }
+  #login_error {
+  }
+
+  .privacy-policy-link {
+    display: none;
+  }
+}

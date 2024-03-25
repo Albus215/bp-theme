@@ -1,0 +1,116 @@
+// --
+// -- Colors
+// --
+
+$theme-color-font: #1c1618;
+$theme-color-black: #000;
+$theme-color-white: #fff;
+
+$theme-colors: (
+        "primary":    #0d6efd,
+        "secondary":  #6610f2,
+        "success":    #6f42c1,
+        "info":       #d63384,
+        "warning":    #dc3545,
+        "danger":     #fd7e14,
+        "light":      #ffc107,
+        "dark":       #198754
+);
+
+// --
+// -- Grid
+// --
+
+$spacer: 1rem;
+$grid-columns: 12;
+$grid-gutter-width: 1rem;
+//$grid-breakpoints: (
+//        xs: 0,
+//        sm: 576px,
+//        md: 768px,
+//        lg: 992px,
+//        xl: 1200px,
+//        xxl: 1400px
+//);
+
+// --
+// -- Fonts
+// --
+
+$fs-h1: 130px;
+$fs-h1-md: 100px;
+$fs-h1-sm: 60px;
+
+$fs-h2: 60px;
+$fs-h2-md: 50px;
+$fs-h2-sm: 42px;
+
+$fs-h3: 42px;
+$fs-h3-md: 34px;
+$fs-h3-sm: 32px;
+
+$fs-h4: 29px;
+$fs-h4-md: 29px;
+$fs-h4-sm: 28px;
+
+$fs-h5: 21px;
+$fs-h5-md: 18px;
+$fs-h5-sm: 16px;
+
+$fs-h6: 16px;
+$fs-h6-md: 16px;
+$fs-h6-sm: 14px;
+
+$fs-p: 16px;
+$fs-p-md: 16px;
+$fs-p-sm: 14px;
+$fs-p-xs: 12px;
+$fs-p-xxs: 10px;
+
+$fs-nav-top: 14px;
+$fs-nav: 14px;
+$fs-nav-md: 14px;
+$fs-nav-sm: 14px;
+$fs-nav-main: 28px;
+
+$fs-btn: 16px;
+$fs-btn-md: 15px;
+$fs-btn-sm: 15px;
+
+$fs-inp: 16px;
+$fs-inp-md: 16px;
+$fs-inp-sm: 16px;
+
+$fs-txt-stat: 152px;
+$fs-txt-stat-md: 100px;
+$fs-txt-stat-sm: 52px;
+
+$fs-stat: 72px;
+$fs-stat-md: 52px;
+$fs-stat-sm: 42px;
+
+$fs-footer: 14px;
+$fs-footer-sm: 12px;
+$fs-label: 14px;
+
+$font-dashicons: dashicons;
+
+@mixin font-dashicons {
+  font-family: $font-dashicons;
+}
+
+$font-main: #{'Roboto', sans-serif};
+
+@mixin font-main {
+  font-family: $font-main;
+}
+
+// --
+// -- Other
+// --
+
+@mixin is-flex {
+  display: flex;
+  flex-flow: row wrap;
+}
+

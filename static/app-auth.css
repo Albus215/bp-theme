@@ -1,0 +1,27 @@
+/**
+  Auth styles
+ */
+.login h1 a {
+  width: 160px;
+  height: 80px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  background-size: contain;
+  background-image: url("../../static/img/website_logo.svg");
+}
+.login #login a {
+  color: inherit;
+}
+.login #login [type=submit] {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+.login #nav a,
+.login #nav * a,
+.login #backtoblog a {
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+.login .privacy-policy-link {
+  display: none;
+}

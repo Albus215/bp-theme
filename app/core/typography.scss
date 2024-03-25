@@ -1,0 +1,101 @@
+/**
+  Fonts & Typography
+ */
+
+* {
+  @include font-main;
+  word-wrap: break-word;
+  //color: $color-font;
+}
+
+body, p {
+  font-size: $fs-p;
+  line-height: 1.3;
+}
+
+p {
+}
+
+h1, .font-h1 {
+  font-size: $fs-h1;
+}
+
+h2, .font-h2 {
+  font-size: $fs-h2;
+}
+
+h3, .font-h3 {
+  font-size: $fs-h3;
+}
+
+h4, .font-h4 {
+  font-size: $fs-h4;
+}
+
+h5, .font-h5 {
+  font-size: $fs-h5;
+}
+
+h6, .font-h6 {
+  font-size: $fs-h6;
+}
+
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+.the-content {
+
+}
+
+@include media-breakpoint-down(xl) {
+  h1, .font-h1 {
+    font-size: $fs-h1-md;
+  }
+  h2, .font-h2 {
+    font-size: $fs-h2-md;
+  }
+  h3, .font-h3 {
+    font-size: $fs-h3-md;
+  }
+  h4, .font-h4 {
+    font-size: $fs-h4-md;
+  }
+  h5, .font-h5 {
+    font-size: $fs-h5-md;
+  }
+  h6, .font-h6 {
+    font-size: $fs-h6-md;
+  }
+  body, p {
+    font-size: $fs-p-md;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  h1, .font-h1 {
+    font-size: $fs-h1-sm;
+  }
+  h2, .font-h2 {
+    font-size: $fs-h2-sm;
+  }
+  h3, .font-h3 {
+    font-size: $fs-h3-sm;
+  }
+  h4, .font-h4 {
+    font-size: $fs-h4-sm;
+  }
+  h5, .font-h5 {
+    font-size: $fs-h5-sm;
+  }
+  h6, .font-h6 {
+    font-size: $fs-h6-sm;
+  }
+  body, p {
+    font-size: $fs-p-sm;
+    line-height: 1.6;
+  }
+}
